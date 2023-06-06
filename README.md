@@ -1,13 +1,13 @@
 <<<<<<< HEAD
 # CodepathSubmissionAO
 =======
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Game Listing App
 
-Submitted by: **Your Name Here**
+Submitted by: Aymerick Osse
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+ Game Listing App is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
@@ -18,18 +18,16 @@ The following **required** functionality is completed:
 * [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
 * [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
-The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.loom.com/share/9b9b66f4598a480db77d224189f1ab26' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+Video Walkthrough created with Loom chrome extension
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -38,6 +36,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+The biggest issue I faced was when passing the game.js data to the addGamestoPage function. Instead of doing addGamesToPage(GAMES_JSON) I did addGamesToPage(games) and it return over 2000 items when i console logged it. Then I realized that I was supposed to parse the data before passing it to the function.
 
 ## License
 
