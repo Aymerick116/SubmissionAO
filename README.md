@@ -24,8 +24,9 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://www.loom.com/share/9b9b66f4598a480db77d224189f1ab26' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+click or copy link below to access video walktrough:
+'https://www.loom.com/share/9b9b66f4598a480db77d224189f1ab26'
 <!-- Replace this with whatever GIF tool you used! -->
 Video Walkthrough created with Loom chrome extension
 <!-- Recommended tools:
